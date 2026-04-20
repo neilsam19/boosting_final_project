@@ -138,7 +138,7 @@ The Streamlit app allows you to:
 
 Users can access the deployed app at [this link](https://group10-boosting-cs3511-spring2026.streamlit.app/).
 
-If it shows that the app is ``asleep", then one should be able to click a button to turn it on. After 1-2 minutes, the application should be up and running at the given link. This happens when no one accesses the app for a few hours.
+If it shows that the app is "asleep", then one should be able to click a button to turn it on. After 1-2 minutes, the application should be up and running at the given link. This happens when no one accesses the app for a few hours.
 
 ---
 
