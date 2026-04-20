@@ -12,9 +12,9 @@ AdaBoost is highly effective on clean data, but it can overfit to mislabeled poi
 
 To address this, we implement three modifications:
 
-- **Weight Clipping** — limits extreme weight growth
-- **Persistent Error Dampening** — reduces influence of repeatedly misclassified points
-- **Soft Boosting** — reduces the aggressiveness of weight updates
+- **Weight Clipping**: limits extreme weight growth
+- **Persistent Error Dampening**: reduces influence of repeatedly misclassified points
+- **Soft Boosting**: reduces the aggressiveness of weight updates
 
 We compare these methods across varying noise levels and datasets, and provide an interactive visualization using Streamlit.
 
@@ -139,6 +139,8 @@ The Streamlit app allows you to:
 Users can access the deployed app at [this link](https://group10-boosting-cs3511-spring2026.streamlit.app/).
 
 If it shows that the app is ``asleep", then one should be able to click a button to turn it on. After 1-2 minutes, the application should be up and running at the given link. This happens when no one accesses the app for a few hours.
+
+---
 
 ## Results Summary
 
