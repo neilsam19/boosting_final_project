@@ -40,19 +40,19 @@ We evaluate our methods on both synthetic and real datasets from **scikit-learn*
 
 ### Synthetic
 
-- `make_moons` — for visualization and decision boundaries
-- `make_classification` — general synthetic dataset
+- `make_moons`: A synthetic 2D dataset with two interleaving half-moon shapes. Useful for visualizing decision boundaries and seeing how the model separates non-linear data.
+- `make_classification`: A synthetic dataset with multiple features and some informative vs noisy features. Useful to test general performance beyond simple visual cases.
 
 ### Real-world
 
-- `load_digits` — handwritten digits (binary: 0 vs rest)
-- `load_wine` — wine classification (binary: class 0 vs rest)
+- `load_digits`: A real-world dataset of handwritten digits, where we convert it into a binary task: digit 0 vs all others, to test performance on image-like data.
+- `load_wine`: A real-world dataset with chemical properties of wines, converted into a binary classification problem (class 0 vs the rest) to test performance on structured tabular data.
 
 ---
 
 ## Converting to Binary Classification
 
-AdaBoost is implemented here for **binary classification** with labels in ({-1, +1}).
+AdaBoost is implemented here for **binary classification** with labels in {-1, +1}.
 
 For multi-class datasets (Digits, Wine), we convert them into binary problems using a **one-vs-rest approach**:
 
@@ -104,7 +104,7 @@ venv\Scripts\activate      # Windows
 pip install -r requirements.txt
 ```
 
-If no requirements file is present, install manually:
+If there is an issue with the requirements file, install manually:
 
 ```bash
 pip install numpy scikit-learn matplotlib streamlit
