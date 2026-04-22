@@ -153,6 +153,8 @@ We observe that:
 
 No single method dominates, as each addresses a different failure mode.
 
+For more detailed results, please visit [this spreadsheet](https://docs.google.com/spreadsheets/d/17tgOP04jZCkuctsb3PLwqqWd3ie_dv6c1bgs7JSQbFU/edit?usp=sharing). Each tab represents the dataset, and the parameters are also given. The table contains the test accuracy for each combination of noise and boosting.
+
 ---
 
 ## References
