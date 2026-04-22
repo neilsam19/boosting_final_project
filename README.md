@@ -1,4 +1,4 @@
-# CS 3511 Final Project — Extending AdaBoost for Noisy Data
+# CS 3511 Final Project: Extending AdaBoost for Noisy Data
 
 ## Aryav Taneja, Divy Shah, Neil Samant, Shrey Agarwal, Yufei Li
 
