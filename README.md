@@ -2,6 +2,7 @@
 
 ## Aryav Taneja, Divy Shah, Neil Samant, Shrey Agarwal, Yufei Li
 
+### Group 10, Spring 2026
 ---
 
 ## Overview
