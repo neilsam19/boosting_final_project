@@ -74,8 +74,7 @@ We simulate noisy data by **randomly flipping labels** in the training set:
 - Noise level = probability of flipping a label
 - Only applied to training data (test data remains clean)
 
-This enables controlled evaluation of robustness.
-
+This allows us to systematically evaluate how the model performs under different levels of noise.
 ---
 
 ## Running the Project Locally
